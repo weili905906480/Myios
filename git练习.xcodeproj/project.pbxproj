@@ -12,18 +12,21 @@
 		B38592C119EE433500C58331 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B38592BF19EE433500C58331 /* InfoPlist.strings */; };
 		B38592C319EE433500C58331 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B38592C219EE433500C58331 /* main.m */; };
 		B38592C719EE433500C58331 /* appAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B38592C619EE433500C58331 /* appAppDelegate.m */; };
+		B38592CF19EE482900C58331 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B38592CE19EE482900C58331 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B38592B419EE433400C58331 /* git练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "git练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38592B819EE433400C58331 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B38592BA19EE433400C58331 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B38592BE19EE433500C58331 /* git练习-Info.plist */ = {isa = PBXFileReference; path = "git练习-Info.plist"; sourceTree = "<group>"; };
+		B38592BE19EE433500C58331 /* git练习-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "git练习-Info.plist"; sourceTree = "<group>"; };
 		B38592C019EE433500C58331 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B38592C219EE433500C58331 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B38592C419EE433500C58331 /* git练习-Prefix.pch */ = {isa = PBXFileReference; path = "git练习-Prefix.pch"; sourceTree = "<group>"; };
-		B38592C519EE433500C58331 /* appAppDelegate.h */ = {isa = PBXFileReference; path = appAppDelegate.h; sourceTree = "<group>"; };
+		B38592C419EE433500C58331 /* git练习-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "git练习-Prefix.pch"; sourceTree = "<group>"; };
+		B38592C519EE433500C58331 /* appAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = appAppDelegate.h; sourceTree = "<group>"; };
 		B38592C619EE433500C58331 /* appAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appAppDelegate.m; sourceTree = "<group>"; };
+		B38592CD19EE482900C58331 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B38592CE19EE482900C58331 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 			children = (
 				B38592C519EE433500C58331 /* appAppDelegate.h */,
 				B38592C619EE433500C58331 /* appAppDelegate.m */,
+				B38592CD19EE482900C58331 /* RootViewController.h */,
+				B38592CE19EE482900C58331 /* RootViewController.m */,
 				B38592BD19EE433500C58331 /* Supporting Files */,
 			);
 			path = "git练习";
@@ -149,6 +154,7 @@
 			files = (
 				B38592C319EE433500C58331 /* main.m in Sources */,
 				B38592C719EE433500C58331 /* appAppDelegate.m in Sources */,
+				B38592CF19EE482900C58331 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
