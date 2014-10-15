@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B38592B919EE433400C58331 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38592B819EE433400C58331 /* UIKit.framework */; };
+		B38592BB19EE433400C58331 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38592BA19EE433400C58331 /* Foundation.framework */; };
+		B38592C119EE433500C58331 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B38592BF19EE433500C58331 /* InfoPlist.strings */; };
+		B38592C319EE433500C58331 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B38592C219EE433500C58331 /* main.m */; };
+		B38592C719EE433500C58331 /* appAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B38592C619EE433500C58331 /* appAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B38592B419EE433400C58331 /* git练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "git练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B38592B819EE433400C58331 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B38592BA19EE433400C58331 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B38592BE19EE433500C58331 /* git练习-Info.plist */ = {isa = PBXFileReference; path = "git练习-Info.plist"; sourceTree = "<group>"; };
+		B38592C019EE433500C58331 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B38592C219EE433500C58331 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B38592C419EE433500C58331 /* git练习-Prefix.pch */ = {isa = PBXFileReference; path = "git练习-Prefix.pch"; sourceTree = "<group>"; };
+		B38592C519EE433500C58331 /* appAppDelegate.h */ = {isa = PBXFileReference; path = appAppDelegate.h; sourceTree = "<group>"; };
+		B38592C619EE433500C58331 /* appAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B38592B119EE433400C58331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38592B919EE433400C58331 /* UIKit.framework in Frameworks */,
+				B38592BB19EE433400C58331 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B38592A919EE432F00C58331 = {
+			isa = PBXGroup;
+			children = (
+				B38592BC19EE433400C58331 /* git练习 */,
+				B38592B719EE433400C58331 /* Frameworks */,
+				B38592B519EE433400C58331 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B38592B519EE433400C58331 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B38592B419EE433400C58331 /* git练习.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B38592B719EE433400C58331 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B38592B819EE433400C58331 /* UIKit.framework */,
+				B38592BA19EE433400C58331 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B38592BC19EE433400C58331 /* git练习 */ = {
+			isa = PBXGroup;
+			children = (
+				B38592C519EE433500C58331 /* appAppDelegate.h */,
+				B38592C619EE433500C58331 /* appAppDelegate.m */,
+				B38592BD19EE433500C58331 /* Supporting Files */,
+			);
+			path = "git练习";
+			sourceTree = "<group>";
+		};
+		B38592BD19EE433500C58331 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B38592BE19EE433500C58331 /* git练习-Info.plist */,
+				B38592BF19EE433500C58331 /* InfoPlist.strings */,
+				B38592C219EE433500C58331 /* main.m */,
+				B38592C419EE433500C58331 /* git练习-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B38592B319EE433400C58331 /* git练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B38592CA19EE433500C58331 /* Build configuration list for PBXNativeTarget "git练习" */;
+			buildPhases = (
+				B38592B019EE433400C58331 /* Sources */,
+				B38592B119EE433400C58331 /* Frameworks */,
+				B38592B219EE433400C58331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "git练习";
+			productName = "git练习";
+			productReference = B38592B419EE433400C58331 /* git练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B38592AB19EE433100C58331 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B38592AE19EE433200C58331 /* Build configuration list for PBXProject "git练习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B38592A919EE432F00C58331;
+			productRefGroup = B38592B519EE433400C58331 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B38592B319EE433400C58331 /* git练习 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B38592B219EE433400C58331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38592C119EE433500C58331 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B38592B019EE433400C58331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38592C319EE433500C58331 /* main.m in Sources */,
+				B38592C719EE433500C58331 /* appAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B38592BF19EE433500C58331 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B38592C019EE433500C58331 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B38592C819EE433500C58331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B38592C919EE433500C58331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B38592CB19EE433500C58331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "git练习/git练习-Prefix.pch";
+				INFOPLIST_FILE = "git练习/git练习-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B38592CC19EE433500C58331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "git练习/git练习-Prefix.pch";
+				INFOPLIST_FILE = "git练习/git练习-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B38592AE19EE433200C58331 /* Build configuration list for PBXProject "git练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38592C819EE433500C58331 /* Debug */,
+				B38592C919EE433500C58331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B38592CA19EE433500C58331 /* Build configuration list for PBXNativeTarget "git练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B38592CB19EE433500C58331 /* Debug */,
+				B38592CC19EE433500C58331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B38592AB19EE433100C58331 /* Project object */;
+}
